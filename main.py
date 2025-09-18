@@ -46,7 +46,7 @@ class run(APP):
         global SCROLL_SPEED
         dt = self.dt
 
-        print(self.make_faster, self.scroll_speed)
+        print("Scroll Speed:", self.scroll_speed)
         if self.has_started:
             if not self.game_over:
                 self.pipe_timer += dt
